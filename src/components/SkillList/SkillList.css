@@ -1,0 +1,58 @@
+.skill {
+  width: 50%;
+  margin: 3rem 0rem;
+}
+
+.skill-skills {
+  margin: 3rem 0rem;
+  width: 80%;
+}
+
+.loadingSkills {
+  color: grey;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.errorSkills {
+  color: red;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.skill__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+}
+
+@media (max-width: 800px) {
+  .skill,
+  .skill-skills {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+
+  .skill__data {
+    display: none;
+  }
+
+  .flex {
+    width: 5rem;
+  }
+}

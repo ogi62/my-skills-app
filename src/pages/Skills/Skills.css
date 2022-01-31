@@ -1,0 +1,18 @@
+.skills {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* @media (max-width: 800px) {
+  .skills {
+    flex-direction: column;
+    align-items: center;
+  }
+} */
+
+
+@media (max-width: 800px) {
+  .skills {
+    flex-direction: column;
+  }
+}

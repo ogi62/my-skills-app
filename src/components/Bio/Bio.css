@@ -1,0 +1,73 @@
+.bio__information {
+  margin-top: 5rem;
+  display: flex;
+}
+
+.candidate__picture {
+  border-radius: 50%;
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.candidate__bio {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.candidate__name,
+.candidate__lastName {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: grey;
+}
+.bio__contact li:first-of-type {
+  font-size: 1.3rem;
+  margin-left: 0rem;
+  color: black;
+}
+.bio__contact li {
+  list-style-type: none;
+  margin-left: 1rem;
+  color: grey;
+}
+
+.bio__contact li a {
+  color: grey;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .candidate__bio h5 {
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .bio__information {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .candidate__bio {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .candidate__bio h5 {
+    padding-left: 4rem;
+  }
+
+  .bio__contact li:first-of-type {
+    list-style-type: none;
+  }
+
+  .bio__contact li {
+    list-style-type: square;
+  }
+}

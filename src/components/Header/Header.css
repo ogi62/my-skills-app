@@ -1,0 +1,57 @@
+.header {
+  background-color: whitesmoke;
+  height: 5rem;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 5rem;
+  object-fit: contain;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.header__links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25rem;
+  height: 100%;
+}
+
+.header__link {
+  color: grey;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.header__link:hover {
+  color: black;
+}
+
+.header__link:active {
+  color: gray;
+}
+
+.toggleContainer {
+  cursor: pointer;
+  display: none;
+  font-size: 2rem;
+}
+
+@media (max-width: 700px) {
+  .toggleContainer {
+    display: block;
+    margin-right: 0.7rem;
+  }
+
+  .header__links {
+    display: none;
+  }
+}

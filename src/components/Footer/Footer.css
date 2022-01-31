@@ -1,0 +1,26 @@
+.footer {
+  background-color: whitesmoke;
+  height: 5rem;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 100;
+}
+
+.footer__text {
+  display: flex;
+  margin-right: 0.7rem;
+}
+
+.footer__textOne {
+  border-right: 1px solid black;
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+
+.footer__textTwo {
+  color: gray;
+  padding-left: 0.5rem;
+  cursor: pointer;
+}
